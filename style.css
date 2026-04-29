@@ -76,7 +76,7 @@ font-weight: bold;
 
 /* HERO */
 .hero{
-padding:2em 0em 1em;
+padding:2em 0.8em 1em;
 border-bottom: 1px solid#e5e7eb;;
 /* background: linear-gradient(90deg,#2563eb,#3b82f6); */
 }
