@@ -28,7 +28,8 @@ padding:15px 18px;
 display:flex;
 justify-content:space-between;
 align-items:center;
-box-shadow:0 3px 10px rgba(0,0,0,.06);
+border-bottom:1px solid #e5e7eb;
+/*box-shadow:0 3px 10px rgba(0,0,0,.06);*/
 }
 
 .left{
