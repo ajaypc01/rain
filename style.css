@@ -80,7 +80,7 @@ padding:1.6em 0.8em 0.6em;
 /* background: linear-gradient(90deg,#2563eb,#3b82f6); */
 }
 
-.hero h1{
+.hero h2{
 font-size:28px;
 margin-bottom: 16px;
 color: #000;
@@ -88,7 +88,7 @@ font-weight: bold;
 }
 
 .hero p{
-font-size:22px;
+font-size:18px;
 color:#000;
 margin-bottom:16px;
 }
