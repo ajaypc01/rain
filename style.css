@@ -49,11 +49,10 @@ cursor:pointer;
 }
 
 /* OFFER BAR */
-.notice-bar{
+/*.notice-bar{
 position:sticky;
 top:56px;
 z-index:999;
-/* border-bottom: 1px solid #fff; */
 background:linear-gradient(90deg,#2563eb,#3b82f6);
 color:#fff;
 padding:10px 14px;
@@ -61,18 +60,17 @@ font-size:14px;
 font-weight:600;
 white-space:nowrap;
 overflow:hidden;
-}
+}*/
 
-.notice-track{
+/*.notice-track{
 display:inline-block;
 font-weight: bold;
-/* padding-left:50%; */
-}
+}*/
 
-@keyframes slide{
+/*@keyframes slide{
 0%{transform:translateX(0);}
 100%{transform:translateX(-100%);}
-}
+}*/
 
 /* HERO */
 .hero{
