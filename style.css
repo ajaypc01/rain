@@ -130,7 +130,7 @@ cursor:pointer;
 /* CATEGORY BAR */
 .categories{
 position:sticky;
-top:50px;
+top:55px;
 z-index:998;
 background:#fff;
 padding: 1em 1em 0.4em;
