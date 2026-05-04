@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,74 +11,81 @@
 
 <body>
 
-<header>
-<div class="left">
-<i class="fas fa-bars icon"></i>
-<div class="logo">MyStore</div>
+<!-- SIDE MENU -->
+<div class="menu" id="menu">
+  <div class="menu-header">
+    <h3>MyStore</h3>
+    <i class="fas fa-times" id="closeMenu"></i>
+  </div>
+
+  <a href="#">Home</a>
+  <a href="#">Templates</a>
+  <a href="#">Pricing</a>
+  <a href="#">About</a>
+  <a href="#">Contact</a>
+
+  <div class="menu-bottom">
+  <a href="privacy.html">Privacy Policy</a>
+  <a href="terms.html">Terms of Use</a>
+  <a href="refund.html">Refund Policy</a>
+</div>
 </div>
 
-<!-- <i class="fas fa-search icon"></i> -->
+<!-- OVERLAY -->
+<div class="overlay" id="overlay"></div>
+
+<div class="top-bar">
+
+<header id="header">
+  <div class="search-bar" id="searchBar">
+
+    <!-- MENU -->
+    <i class="fas fa-bars" id="menuBtn"></i>
+
+    <!-- LOGO -->
+    <div class="logo-inside">MyStore</div>
+
+    <!-- INPUT -->
+    <input type="text" placeholder="Search templates..." id="searchInput">
+
+    <!-- SEARCH -->
+    <i class="fas fa-search" id="searchIcon"></i>
+
+  </div>
 </header>
 
-<!--<div class="notice-bar">
-<div class="notice-track">
-⚡ Flat 50% OFF  • Free Shipping •  Buy 1 Get 1 Free •
-</div>
-</div>-->
-
-<section class="hero">
-<h2>Explore templates for all your needs!</h2>
-<p></p>
-
-<div class="search-box">
-<div class="search-wrap">
-<input type="text" placeholder="Search..." id="searchInput">
-<button class="close-search" id="clearBtn">
-<i class="fas fa-search" style="font-size: 1.5em;"></i>
-</button>
-</div>
-</div>
-</section>
-
 <section class="categories">
-<div class="scroll">
-<div class="cat active" data-category="mobiles">Mobiles</div>
-<div class="cat" data-category="laptops">Laptops</div>
-<div class="cat" data-category="fashion">Fashion</div>
-<div class="cat" data-category="audio">Audio</div>
-<div class="cat" data-category="gaming">Gaming</div>
-</div>
+  <div class="scroll">
+    <div class="cat active" data-category="mobiles">Home</div>
+    <div class="cat" data-category="laptops">Templates</div>
+  </div>
 </section>
 
-<section class="content" id="contentSection">
+</div>
+
+<section class="content">
 <div class="section-head">
-<h2 class="section-title" id="sectionTitle">Mobiles</h2>
-<div class="count" id="countText">10 Products</div>
+<h2 id="sectionTitle">Mobiles</h2>
+<div id="countText">10 Products</div>
 </div>
 
 <div class="grid" id="products"></div>
 </section>
 
-<section class="quick-links">
-<div class="links-wrap">
-<a href="#">Offers</a>
-<a href="#">Orders</a>
-<a href="#">Wishlist</a>
-<a href="#">Support</a>
-</div>
-</section>
-
 <footer>
+
+<!-- LINKS SECTION -->
 <div class="footer-links">
-<a href="#">About</a>
-<a href="#">Privacy</a>
-<a href="#">Terms</a>
-<a href="#">Help</a>
+  <a href="privacy.html">Privacy Policy</a>
+  <a href="terms.html">Tearms of Use</a>
+  <a href="refund.html">Refund Policy</a>
+
 </div>
 
+<!-- COPYRIGHT -->
 <div class="copy">© 2026 MyStore. All rights reserved.</div>
-</footer>
 
+</footer>
 <script src="script.js"></script>
 </body>
 </html>
