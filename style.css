@@ -241,14 +241,14 @@ gap:20%;
 justify-content:center;
 }
 
-.categories{
+/*.categories{
 position:relative;
 top:0%;
 z-index:999;
 background:#fff;
 padding:1em 1em 0.6em;
 border-bottom:1px solid #e5e7eb;
-}
+}*/
 
 .cat{
 padding-bottom:12px;
